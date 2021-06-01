@@ -1,0 +1,132 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+header, footer, section, article, aside {
+  margin: 10px;
+  background: #ddeeff;
+  border-radius: 6px;
+  color: gray;
+  font: 14px/24px "Lucida Console";
+  padding: 24px 15px;
+  box-shadow: -1px 2px 5px 1px rgba(0, 0, 0, 0.7);
+  display:block;
+}
+
+section, article {
+  background: lightyellow;
+}
+
+#map {
+    margin: 2px;
+    height: 90%;
+    /* width:  95%; */
+    transition: all 0.5s ease-in-out;    
+}
+
+#map:hover { 
+    height: 90%;
+    transform:rotate(-5deg);
+}
+
+header, footer {
+  text-align:center;
+  clear: both;
+}
+
+footer {
+  font: 12px "Lucida Console";
+  padding: 1px;
+}
+
+section {
+  float: left;
+  width: 60%;
+  height:70%;
+}
+
+aside {
+  float: right;
+  width: 25%;
+}
+
+
+#w3devCampusVideo {
+    width: 300px;
+    transition: all 0.5s ease-in-out;
+}
+
+code#tool_name {
+    font-variant: small-caps;
+}
+
+#w3devCampusVideo:hover,video:focus { 
+    width:400px; 
+    transform:rotate(-5deg);
+}
+
+a:hover { 
+    color: black;
+}
+
+a { 
+    color: gray;
+}
+
+button{
+    font-size:150%;
+    text-align:center;
+    display:block;
+    margin: 3px;
+}
+
+#controls button#change{
+    /* horizontal:; */
+    /* position:relative; */
+    display: inline-block;
+    width:90%;
+    border:none;
+    background: lightyellow;
+    box-shadow: -1px 2px 5px 1px rgba(0, 0, 0, 0.7);
+    transition: all 0.1s ease-in-out;
+}
+
+#controls button#change:hover{
+    /* width:90%; */
+    /* border-radius: 6px 0px 0px 6px; */
+    /* transform:rotate(-1deg); */
+
+    /* transform:scale(1.05,1.05); */
+    /* -ms-transform: scale(1.05,1.05); /\* IE 9 *\/ */
+    /* -webkit-transform: scale(1.05,1.05); /\* Safari *\/ */
+
+    /* -ms-transform: translate(-10px,0px) ; /\* IE 9 *\/ */
+    /* -webkit-transform: translate(-10px,0px); /\* Safari *\/ */
+    /* transform: translate(-10px,0px) scale(1.05,1.1); */
+
+    border-radius: 6px 6px 6px 6px;
+    transform:scale(1.1,1.1);
+    -ms-transform: scale(1.1,1.1); /* IE 9 */
+    -webkit-transform: scale(1.1,1.1); /* Safari */
+
+    /* -webkit-transform: rotateY(45deg); /\* Safari *\/ */
+    /* transform: rotateY(45deg);     */
+}
+
+#controls {
+    text-align: center;
+    /* align-content:center; */
+}
+
+section header {
+    position: absolute !important;
+    clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+    clip: rect(1px, 1px, 1px, 1px);
+    padding:0 !important;
+    border:0 !important;
+    height: 1px !important; 
+    width: 1px !important; 
+    overflow: hidden;
+}

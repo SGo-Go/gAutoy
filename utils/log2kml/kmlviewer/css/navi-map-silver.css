@@ -1,0 +1,120 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background: #ececec;
+}
+
+header, footer, section, article, aside {
+  margin: 0.5em;
+  background: #ddd;
+  border-radius: 0.2em;
+  color: #666;
+  font: 16px/24px "Lucida Console";
+  padding: 0.5em 0.5em;
+  box-shadow: -1px 2px 5px 1px rgba(0, 0, 0, 0.7);
+  display:block;
+}
+
+fieldset {
+  width: 100%;
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+
+  border: 1px solid #999;
+}
+
+section, article {
+  background: rgba(0,0,0,0.01);
+}
+
+#map {
+    margin: 0.2em;
+    height: 100%;
+}
+
+header, footer {
+  text-align:center;
+  clear: both;
+}
+
+footer {
+  font: 0.8em "Lucida Console";
+  /* padding: 0em; */
+}
+
+section {
+  float: left;
+  width: -moz-calc(100% - 25em);
+  width: -webkit-calc(100% - 25em);
+  width: calc(100% - 25em);
+
+  height: -moz-calc(100% - 14em);
+  height: -webkit-calc(100% - 14em);
+  height: calc(100% - 14em);
+}
+
+aside {
+  float: right;
+  width: 15em;
+
+  padding: 1em;
+  border : 1px solid #CCC;
+}
+
+code#tool_name {
+    font-variant: small-caps;
+}
+
+a:hover { 
+    color: black;
+}
+
+a { 
+    color: gray;
+}
+
+button{
+    text-align:center;
+    display:block;
+    font-size: 110%;
+    margin: 0.2em;
+    border-radius: 0.2em;
+}
+
+#controls button#change{
+    display: inline-block;
+    width:90%;
+    border:none;
+    box-shadow: -1px 2px 5px 1px rgba(0, 0, 0, 0.7);
+    transition: all 0.1s ease-in-out;
+}
+
+#controls button#change:hover {
+    border-radius: 6px 6px 6px 6px;
+    transform:scale(1.1,1.1);
+    -ms-transform: scale(1.1,1.1); /* IE 9 */
+    -webkit-transform: scale(1.1,1.1); /* Safari */
+}
+
+#controls {
+    text-align: center;
+}
+
+fieldset ul {
+  margin : 0;
+  padding: 0;
+  list-style: none;
+  text-align:left;
+}
+
+section h2 {
+    position: absolute !important;
+    clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+    clip: rect(1px, 1px, 1px, 1px);
+    padding:0 !important;
+    border:0 !important;
+    height: 1px !important; 
+    width: 1px !important; 
+    overflow: hidden;
+}
